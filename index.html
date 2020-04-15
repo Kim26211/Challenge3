@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Challenge3</title>
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/grid-layout.css" rel="stylesheet" />
+		<link type="text/css" href="styles/queries.css" rel="stylesheet" />
+		<script src="scripts/weather.js" defer></script>
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+		<script src="scripts/locations.js" defer></script>
+		<script src="scripts/drinkspots.js" defer></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+
+         <!-- Directions assets 
+        <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js"></script>
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css" />-->
+
+	</head>
+	<body>
+		<main class="container">
+			<div class="container1">
+				<div class="locatie">
+					<h2>Vondelpark Amsterdam</p2>
+				</div>
+				<div class="weather">
+					<div class="item1" id="weather"></div>
+					<div class="item2" id="wind"></div>
+					<div class="item3" id="clouds"></div>
+					<h1 class="item4">Yay, we found our landing spot.</h1>
+				</div>
+			</div>
+			<div class="container2">
+				<div class="locations">
+					<p class="item5">spots in 5 km</p>
+					<div class="item6" id="map"></div>
+				</div>
+				<h2 class="drink">Time for a drink</h2>
+			</div>	
+		</main>
+	</body>
+</html>
